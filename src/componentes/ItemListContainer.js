@@ -1,7 +1,8 @@
+const margin = {margin : '3cm'}
 const ItemListContainer = () => {
   return (
     <>
-    <div className="flex mt-6 bg-success "  style={margin}>
+    <div className="flex mt-6 bg-success " style={margin} >
       <div className="card w-96 bg-base-100 shadow-xl m-10">
       <figure className="px-10 pt-10">
         <img src="https://placeimg.com/400/225/arch" alt="Shoes" className="rounded-xl" />
