@@ -1,16 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './componentes/NavBar';
-import Cards from './componentes/Cards';
+
+import ItemListContainer from './componentes/ItemListContainer';
+
 
 function App() {
   return (
    <>
-   <NavBar></NavBar>
+   <NavBar/>
    
+<ItemListContainer/>
 
-
-   <Cards></Cards>
    </>
   );
 }
