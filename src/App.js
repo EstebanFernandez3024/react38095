@@ -9,11 +9,11 @@ function App() {
   return (
    <>
    <body>
-   <NavBar/>
+      <NavBar/>
 
-<ItemListContainer/>
+      <ItemListContainer/>
 
-</body>
+    </body>
    </>
   );
 }
