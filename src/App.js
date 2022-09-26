@@ -4,6 +4,7 @@ import NavBar from './componentes/NavBar';
 
 import ItemListContainer from './componentes/ItemListContainer';
 import ItemCount from './componentes/ItemCount';
+import ItemList2 from './componentes/ItemList2';
 
 
 function App() {
@@ -16,8 +17,8 @@ function App() {
       <NavBar/>
 
       <ItemListContainer/>
-      <>
-      <ItemCount onAdd={onAdd} initial={1} stock={10} />
+      <><ItemCount onAdd={onAdd} initial={1} stock={10} />
+<ItemList2/>
     </>
     </body>
    </>
