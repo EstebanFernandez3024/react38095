@@ -5,6 +5,7 @@ import NavBar from './componentes/NavBar';
 import ItemListContainer from './componentes/ItemListContainer';
 import ItemCount from './componentes/ItemCount';
 import ItemList2 from './componentes/ItemList2';
+import StarWard from './componentes/starwars/StarWard';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
 <ItemList2/>
     </>
     </body>
+
+   <StarWard/>
    </>
   );
 }
