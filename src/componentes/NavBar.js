@@ -72,7 +72,7 @@ const NavBar = () => {
             <li><a className="sec">Nike</a></li>
           </ul>
         </li>
-        <Link to='lista'> VER PRODUCTOS</Link> 
+        <Link to='ItemListContainer'> VER PRODUCTOS</Link> 
         <li><a>Ver Todo</a></li>
         <a className="btn ">🛒 <br></br> ver carrito </a> 
         

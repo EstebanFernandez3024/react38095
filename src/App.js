@@ -34,8 +34,8 @@ function App() {
         <Routes>
        
        
-                <Route path='/lista/' element={<ItemListContainer></ItemListContainer>}/>
-                <Route path='/hola/'  element={<ItemDetail></ItemDetail>} />
+                <Route path='/ItemListContainer/' element={<ItemListContainer></ItemListContainer>}/>
+                <Route path='/componentes/ItemCard/:id'  element={<ItemDetail></ItemDetail>} />
    
         
      
