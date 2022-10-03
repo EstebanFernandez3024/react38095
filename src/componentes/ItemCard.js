@@ -11,7 +11,7 @@ const ItemCard = ({nombre, precio, img, id}) => {
 
       <div className='conteinercards'>
 
-<Link to={`/hola/Item${id}`}>
+<Link to={`/componentes/ItemCard/${id}`}>
       <div className='cardS'>
       <img  src={img}/>
       <p>{nombre} </p> 
