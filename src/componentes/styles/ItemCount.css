@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   background-color: rgb(0, 0, 0);
+
   font-size: 10px;
   margin-top: 19%;
   }
@@ -51,7 +51,7 @@
     
   }
   .button-primary{
-    background-color: rgb(215, 253, 0);
+   border: 1px solid black;
     color: black;
     margin: 10px;
     padding: 10px;
@@ -80,10 +80,11 @@
   }
 
   .cardS{
+   
    color: black;
     border: 1px solid wheat;
     margin: 15px;
-   
+   padding: 1cm;
     background-color: #eceef0;
     box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
     position: static;
@@ -98,18 +99,32 @@
   
   }
   .conteinercards{
+
     width: 100%;
     height: 100%;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    
+   
   }
   .navbar{
-    margin-bottom: 2cm;
-    padding-top: 2%;
-    justify-content: center;
+   
+  background-color: #3d4451;
+  color: white;
+   
     position: sticky;
     top: 0;
-    padding-bottom: 1cm;
-    border: 1px solid black;
+    
+
   }
+
+ .sec{
+    background-color:#3d4451;
+    text-align: center;
+    padding: 10px;
+  }
+  .ulmen{
+    background-color: #3d4451;
+  }
+  

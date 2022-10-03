@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.TITULO{
+  text-align: center;
+  padding: 2cm;
+  font-size: 2cm;
+}
