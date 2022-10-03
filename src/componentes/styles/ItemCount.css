@@ -3,11 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1d1d1d;
-    margin-left: 30%;
-    margin-right: 30%;
-    border-radius: 100%;
-    margin-bottom: 10%;
+   background-color: rgb(0, 0, 0);
+  font-size: 10px;
+  margin-top: 19%;
   }
   
   .count-container__contador {
@@ -17,7 +15,7 @@
     height: 50px;
     font-weight: 600;
     font-size: 1.4rem;
-    margin: 40px auto 0;
+ 
   }
   
   .count-container__button {
@@ -32,7 +30,7 @@
   
   .count-container__button:hover {
     border: none;
-   background-color: yellow;
+   background-color: rgb(0, 255, 26);
    color: black;
   }
   
@@ -49,14 +47,14 @@
     padding-top: 10px;
     color: white;
     background-color:aliceblue;
-    color: rgb(174, 203, 45);
+    color: rgb(0, 0, 0);
     
   }
   .button-primary{
     background-color: rgb(215, 253, 0);
     color: black;
-    margin: 1cm;
-    padding: 1cm;
+    margin: 10px;
+    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
   }
 
@@ -71,14 +69,47 @@
     border: 1px solid red;
     margin: 30px;
     text-align: center;
-    padding: 1cm;
+   
     display: flex;
   }
   .cardConteiner{
-    width: 100%;
-    height: 100%;
+  
   display: flex;
   justify-content: center;
     
   }
 
+  .cardS{
+   color: black;
+    border: 1px solid wheat;
+    margin: 15px;
+   
+    background-color: #eceef0;
+    box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
+    position: static;
+    width: 17em;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .conteinercards{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navbar{
+    margin-bottom: 2cm;
+    padding-top: 2%;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    padding-bottom: 1cm;
+    border: 1px solid black;
+  }

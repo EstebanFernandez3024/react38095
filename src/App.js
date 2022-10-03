@@ -14,13 +14,15 @@ function App() {
   };
   return (
    <>
-   <body>
-      <NavBar/>
-
+   
+   <body className='body'>
+         <NavBar/>
+<div>
       <ItemListContainer/>
       <><ItemCount onAdd={onAdd} initial={1} stock={10} />
 <ItemList2/>
     </>
+    </div>
     </body>
 
    <StarWard/>
