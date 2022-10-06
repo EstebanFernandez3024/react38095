@@ -17,7 +17,7 @@ const ItemList = () => {
     return new Promise( resolve => {
       setTimeout(() => {
         resolve( products )
-      }, );
+      },1500 );
     })
   }
 

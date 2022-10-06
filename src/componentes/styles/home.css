@@ -1,0 +1,24 @@
+h1{
+    padding: 3cm;
+}
+.ver{
+  
+    text-align: center;
+    padding: 3cm;
+
+    font-size: 2cm;
+    font-weight: 900;
+  
+ 
+    color: rgb(252, 12, 12);
+   
+    
+}
+.bodyHome{
+    background-image: url(https://www.xtrafondos.com/wallpapers/resized/textura-de-pasto-2946.jpg?s=large);
+    
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}

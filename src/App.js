@@ -8,7 +8,7 @@ import ItemListContainer from './componentes/ItemListContainer';
 import Footer from './componentes/Footer';
 
 import ItemDetail from './componentes/ItemDetail';
-
+import Home from './componentes/Home';
 
         
 function App() {
@@ -19,9 +19,8 @@ function App() {
    
   
      
-    
 
-    
+   <div className='body'>
    
   
       <BrowserRouter>
@@ -33,6 +32,7 @@ function App() {
 
         <Routes>
        
+        <Route path={'/'} element={<Home/>} />
        
                 <Route path='/ItemListContainer/' element={<ItemListContainer></ItemListContainer>}/>
                 <Route path='/componentes/ItemCard/:id'  element={<ItemDetail></ItemDetail>} />
@@ -41,10 +41,11 @@ function App() {
      
        
         </Routes>
-        <Footer/>   
+         
       </BrowserRouter>
+      <Footer/>  
 
-
+      </div>
     </>
 
    
